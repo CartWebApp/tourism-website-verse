@@ -1,1 +1,10 @@
 /* Don't forget that media queries are required for this project */
+body{
+    height: 5000px;
+    font-family:'Times New Roman', Times, serif;
+    background-image:repeating-linear-gradient(180deg, #FFBEA8, #728FBB, #56A4B0, #DBFCFF, #DBFCFF, #FFFB87);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+}
+
+/*Desktop website*/

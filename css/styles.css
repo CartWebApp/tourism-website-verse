@@ -1,10 +1,41 @@
 /* Don't forget that media queries are required for this project */
-body{
-    height: 5000px;
-    font-family:'Times New Roman', Times, serif;
+html{
     background-image:repeating-linear-gradient(180deg, #FFBEA8, #728FBB, #56A4B0, #DBFCFF, #DBFCFF, #FFFB87);
     background-repeat: no-repeat;
     background-attachment:scroll;
 }
 
-/*Desktop website*/
+body{
+    height: 5000px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: white;
+}
+
+/*Header*/
+header{
+    background-color: rgba(128, 128, 128, 0.432);
+    padding: 1%;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 1%;
+    margin-top: 1%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer{
+    
+}

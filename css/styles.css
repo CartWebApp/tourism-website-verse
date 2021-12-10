@@ -93,9 +93,39 @@ footer ul li img{
 
 /*Page content*/
 #hero{
+    display: flex;
     width: 100%;
     height: 20vw;
     background-image: url(../img/home-hero.jpg);
-    background-position: -250px -600px;
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
     object-fit: scale-down;
+}
+
+#hero h1{
+    color: white;
+    align-self: center;
+    font-size: 475%;
+    transform: translate(370%);
+}
+
+#discovery-pages{
+    background-color: rgba(128, 128, 128, 0.432);
+}
+
+#discovery-pages ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    height: fit-content;
+}
+
+#discovery-pages ul li.things-japan{
+    background-image: url(../img/Things-in-Japan-img.jpg);
+    background-size: 10vw 10vw;
+    height: 10vw;
+    width: 10vw;
+    background-repeat: no-repeat
 }

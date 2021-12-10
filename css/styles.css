@@ -141,9 +141,16 @@ footer ul li img{
 }
 
 #discovery-pages ul li.things-norway{
-    background-image: url(../img/Things-in-Japan-img.jpg);
+    background-image: url(../img/norway-things-to-do.jpg);
     background-size: 20vw 25vw;
     height: 25vw;
     width: 20vw;
     background-repeat: no-repeat
 }
+
+/*news & faq*/
+.n-f{
+    background-color: rgba(128, 128, 128, 0.432);
+}
+
+/*news*/

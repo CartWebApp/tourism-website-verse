@@ -109,6 +109,7 @@ footer ul li img{
     transform: translate(370%);
 }
 
+/*Discovery pages*/
 #discovery-pages{
     background-color: rgba(128, 128, 128, 0.432);
 }
@@ -120,12 +121,29 @@ footer ul li img{
     flex-wrap: wrap;
     color: white;
     height: fit-content;
+    text-align: center;
+}
+
+#discovery-pages ul li.things-india{
+    background-image: url(../img/Things-in-Japan-img.jpg);
+    background-size: 20vw 25vw;
+    height: 25vw;
+    width: 20vw;
+    background-repeat: no-repeat
 }
 
 #discovery-pages ul li.things-japan{
     background-image: url(../img/Things-in-Japan-img.jpg);
-    background-size: 10vw 10vw;
-    height: 10vw;
-    width: 10vw;
+    background-size: 20vw 25vw;
+    height: 25vw;
+    width: 20vw;
+    background-repeat: no-repeat
+}
+
+#discovery-pages ul li.things-norway{
+    background-image: url(../img/Things-in-Japan-img.jpg);
+    background-size: 20vw 25vw;
+    height: 25vw;
+    width: 20vw;
     background-repeat: no-repeat
 }

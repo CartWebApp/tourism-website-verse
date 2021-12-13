@@ -1,0 +1,233 @@
+
+html{
+    background-image:repeating-linear-gradient(180deg, #FFBEA8, #728FBB, #56A4B0, #DBFCFF, #DBFCFF, #FFFB87);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: rgba(255, 255, 255, 0.192);
+}
+
+li{
+    text-decoration: none;
+    list-style:none;
+}
+
+/*Header*/
+header{
+    background-color: rgba(0, 0, 0, 0.150);
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 1%;
+    color: white;
+    text-align: center;
+    align-self: center;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header ul li img{
+    width: 5.5vw;
+    height: relative;
+}
+
+/*footer*/
+footer{
+    background-color:rgba(0, 0, 0, 0.150);
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer ul li{
+    color: white;
+    padding: 1%;
+    text-align: center;
+    align-self: center;
+}
+
+footer ul li img{
+    width: 5.5vw;
+    height: relative;
+}
+
+/*Dropdown */    
+.dropdown-content{
+    display: none;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+    display: block flex;
+}
+
+/*hero img*/
+#herojapan{
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../img/japan-about-hero.jpg);
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+}
+ 
+
+#herojapan h1{
+    color: white;
+    align-self: center;
+    font-size: 475%;
+    transform: translate(370%);
+}
+#heronorway{
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../img/norway-about-hero.jpg);
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+}
+ 
+
+#heronorway h1{
+    color: white;
+    align-self: center;
+    font-size: 475%;
+    transform: translate(370%);
+}
+#heroindia{
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../img/India-About-Hero.jpg);
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+}
+ 
+
+#heroindia h1{
+    color: white;
+    align-self: center;
+    font-size: 475%;
+    transform: translate(370%);
+}
+
+/*about page content*/
+
+#location
+
+
+.indialocationimg{
+    background-image: url(../img/India-About2.jpg);
+     width: 80vh;
+    height: 18vw;
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    margin: auto;
+    margin-top: 5%;
+   
+}
+.japanlocationimg{
+    background-image: url(../img/Japan-about-img1.jpg);
+     width: 80vh;
+    height: 18vw;
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    margin: auto;
+    margin-top: 5%;
+   
+}
+.norwaylocationimg{
+    background-image: url(../img/norway-about-first.jpg);
+     width: 80vh;
+    height: 18vw;
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    margin: auto;
+    margin-top: 5%;
+   
+}
+
+.informationlocation {
+    font-size: 100%;
+    background-color: rgba(0, 0, 0, 0.150);
+    text-align: left;
+    max-width: 80vh;
+    margin:auto;
+    }
+
+#cultural
+
+.indiaculturalimg{
+    background-image: url(../img/India-About.jpg);
+     width: 80vh;
+    height: 18vw;
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    margin: auto;
+    margin-top: 5%;
+   }
+   .japanculturalimg{
+    background-image: url(../img/Japan-about-img2.jpg);
+     width: 80vh;
+    height: 18vw;
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    margin: auto;
+    margin-top: 5%;
+   }
+   .norwayculturalimg{
+    background-image: url(../img/norway-about-second.jpg);
+     width: 80vh;
+    height: 18vw;
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    margin: auto;
+    margin-top: 5%;
+   }
+   
+   
+
+.informationcultural{
+    font-size: 100%;
+    background-color: rgba(0, 0, 0, 0.150);
+    text-align: left;
+    max-width: 80vh;
+    margin:auto;
+    }

@@ -109,15 +109,10 @@ footer ul li img{
 }
 
 /*destionations only*/
-#japan{
-    display: flex;
+ul{
+    display: grid;
+    grid-template-columns:min-content 1fr;
+    align-items: center;
+    gap: 2%;
 }
 
-.about-hero{
-    background-image:url(../img/Japan-about-hero.jpg);
-    background-size: 20vw 25vw;
-    height: 25vw;
-    width: 20vw;
-    background-repeat: no-repeat;
-    max-width: 1;
-}

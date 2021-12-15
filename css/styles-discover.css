@@ -1,4 +1,4 @@
-/* Don't forget that media queries are required for this project */
+
 html{
     background-image:repeating-linear-gradient(180deg, #FFBEA8, #728FBB, #56A4B0, #DBFCFF, #DBFCFF, #FFFB87);
     background-repeat: no-repeat;
@@ -89,60 +89,82 @@ footer ul li img{
     display: block flex;
 }
 
-/*Page content*/
-#hero{
+/*hero img*/
+#herojapan2{
     display: flex;
     width: 100%;
     height: 20vw;
-    background-image: url(../img/home-hero.jpg);
+    background-image: url(../img/japan-discover-hero.jpg);
     background-size: 100% 200%;
     background-repeat: no-repeat;
     object-fit: scale-down;
-} 
+}
+ 
 
-#hero h1{
+#herojapan2 h1{
     color: white;
     align-self: center;
     font-size: 475%;
-    margin: auto;
+    transform: translate(370%);
 }
-
-/*destinations only*/
-ul#destination{
-    padding: 0;
-    height: 18vw;
+#heronorway2{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.destination-image img{
     width: 100%;
-    height: 18vw;
+    height: 20vw;
+    background-image: url(../img/norway-discover-hero.jpg);
+    background-size: 100% 140%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
 }
+ 
 
-#about-txt{
-    font-size: 100%;
-    flex-basis: 50%;
-    align-self: center;
-    padding-left: 1%;
-}
-
-span#img-txt p{
+#heronorway2 h1{
     color: white;
-    position: relative;
-    z-index: 1;
-    transform: translateY(-300%);
-    margin-left: 35%;
-    margin-right: 0;
+    align-self: center;
+    font-size: 475%;
+    transform: translate(370%);
+}
+#heroindia2{
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../img/India-Discover-Hero.jpg);
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+}
+ 
+
+#heroindia2 h1{
+    color: white;
+    align-self: center;
+    font-size: 475%;
+    transform: translate(370%);
 }
 
-.place{
-    transform: translateY(300);
-    transform: translateZ(1)
+#culturetraditions{
+    font-size: 100%;
+    background-color: rgba(0, 0, 0, 0.150);
+    text-align: left;
+    max-width: 80vh;
+    margin:auto;
+}
+/*locations of country*/
+#locations{
+    display: grid;
+    grid-template-columns:min-content 1fr;
+    align-items: center;
+    height: 350px;
+    padding-left: 0;
+   
 }
 
-.text{
+#discover-txt{
+    padding-left: 2%;
+}
+
+
+.info{
     background-color: rgba(0, 0, 0, 0.150);
     text-align: left;
     max-width: 100%;

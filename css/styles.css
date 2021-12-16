@@ -7,8 +7,8 @@ html{
 
 body{ 
     font-family:'Times New Roman', Times, serif;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: rgba(255, 255, 255, 0.192);
 }
 
@@ -26,6 +26,7 @@ a{
 /*Header*/
 header{
     background-color: rgba(0, 0, 0, 0.150);
+    font-size: 1.5vw;
 }
 
 header ul{
@@ -34,6 +35,7 @@ header ul{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    position: inherit;
 }
 
 header ul li{
@@ -42,6 +44,7 @@ header ul li{
     color: white;
     text-align: center;
     align-self: center;
+    margin-right: 3%;
 }
 
 header ul li a{
@@ -52,11 +55,13 @@ header ul li a{
 header ul li img{
     width: 5.5vw;
     height: relative;
+    transform: translateX(75%);
 }
 
-/*footer*/
+/* footer */
 footer{
     background-color:rgba(0, 0, 0, 0.150);
+    font-size: 1vw;
 }
 
 footer ul{
@@ -84,11 +89,12 @@ footer ul li img{
     padding: 0;
     display: none;
     z-index: 1;
+    font-size: 1vw;
 }
 
 .dropdown-content a{
     color: black;
-    padding: 12px 16px;
+    padding: 5% 0.4vw;
     text-decoration: none;
     display: block;
 }
@@ -96,7 +102,13 @@ footer ul li img{
 .dropdown:hover .dropdown-content{
     display: flex;
     display: block flex;
+    margin: auto;
 }
+
+.dropdown-content a:hover{
+    background-color: rgba(0, 0, 0, 0.150);
+}
+
 
 /*Page content*/
 #hero{
@@ -114,7 +126,7 @@ footer ul li img{
 #hero h1{
     color: white;
     align-self: center;
-    font-size: 475%;
+    font-size: 5vw;
     margin: auto;
 }
 
@@ -159,8 +171,8 @@ footer ul li img{
     background-repeat: no-repeat;
 }
 
-.experience{
-    font-size: 200%;
+.discover-text{
+    font-size: 2vw;
     transform: translateY(7vw);
     padding: 0;
 }
@@ -197,7 +209,7 @@ footer ul li img{
 /*destinations only*/
 ul#destination{
     padding: 0;
-    height: 18vw;
+    height: 20vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -205,11 +217,11 @@ ul#destination{
 
 .destination-image img{
     width: 100%;
-    height: 18vw;
+    height: 20vw;
 }
 
 #about-txt{
-    font-size: 100%;
+    font-size: 1.2vw;
     flex-basis: 50%;
     align-self: center;
     padding-left: 1%;
@@ -238,7 +250,7 @@ span#img-txt p{
 div#titles{
     text-align: center;
     color: white;
-    font-size: 200%; 
+    font-size: 2vw; 
 }
 
 /*About only*/
@@ -246,7 +258,7 @@ div#titles{
     display: flex;
     width: 100%;
     height: 20vw;
-    background-image: url(../img/japan-about-hero.jpg);
+    background-image: url(../img/Japan-about-hero-adjusted.jpg);
     background-size: 100% 150%;
     background-repeat: no-repeat;
     object-fit: scale-down;
@@ -256,7 +268,7 @@ div#titles{
 #herojapan h1{
     color: white;
     align-self: center;
-    font-size: 475%;
+    font-size: 5vw;
     margin: auto;
 }
 
@@ -273,7 +285,7 @@ div#titles{
 #heronorway h1{
     color: white;
     align-self: center;
-    font-size: 475%;
+    font-size: 5vw;
     margin: auto;
 }
 
@@ -291,18 +303,16 @@ div#titles{
 #heroindia h1{
     color: white;
     align-self: center;
-    font-size: 475%;
+    font-size: 5vw;
     margin: auto;
 }
 
 /*about page content*/
 /*location*/
-
-
 .indialocationimg{
-    background-image: url(../img/India-About2.jpg);
-    width: 80vh;
-    height: 18vw;
+    background-image: url(../img/India-About2-adjusted.jpg);
+    width: 90%;
+    height: 20vw;
     background-size: 100% 130%;
     background-repeat: no-repeat;
     object-fit: scale-down;
@@ -312,8 +322,8 @@ div#titles{
 
 .japanlocationimg{
     background-image: url(../img/Japan-about-img1.jpg);
-    width: 80vh;
-    height: 18vw;
+    width: 90%;
+    height: 20vw;
     background-size: 100% 130%;
     background-repeat: no-repeat;
     object-fit: scale-down;
@@ -323,8 +333,8 @@ div#titles{
 
 .norwaylocationimg{
     background-image: url(../img/norway-about-first.jpg);
-    width: 80vh;
-    height: 18vw;
+    width: 90%;
+    height: 20vw;
     background-size: 100% 130%;
     background-repeat: no-repeat;
     object-fit: scale-down;
@@ -333,19 +343,20 @@ div#titles{
 }
 
 .informationlocation{
-    font-size: 100%;
+    font-size: 1.2vw;
     background-color: rgba(0, 0, 0, 0.150);
     text-align: left;
-    max-width: 80vh;
+    max-width: 90%;
     margin:auto;
+    color: white;
 }
 
 /*cultural*/
 
 .indiaculturalimg{
-    background-image: url(../img/India-About.jpg);
-    width: 80vh;
-    height: 18vw;
+    background-image: url(../img/India-About-adjusted.jpg);
+    width: 90%;
+    height: 20vw;
     background-size: 100% 110%;
     background-repeat: no-repeat;
     object-fit: scale-down;
@@ -354,9 +365,9 @@ div#titles{
 }
 
 .japanculturalimg{
-    background-image: url(../img/Japan-about-img2.jpg);
-    width: 80vh;
-    height: 18vw;
+    background-image: url(../img/Japan-about-img2-ad.jpg);
+    width: 90%;
+    height: 20vw;
     background-size: 100% 110%;
     background-repeat: no-repeat;
     object-fit: scale-down;
@@ -366,8 +377,8 @@ div#titles{
 
 .norwayculturalimg{
     background-image: url(../img/norway-about-second.jpg);
-    width: 80vh;
-    height: 18vw;
+    width: 90%;
+    height: 20vw;
     background-size: 100% 110%;
     background-repeat: no-repeat;
     object-fit: scale-down;
@@ -376,11 +387,12 @@ div#titles{
 }
 
 .informationcultural{
-    font-size: 100%;
-    background-color: rgba(0, 0, 0, 0.150);
+    font-size: 1.2vw;
+    background-color: rgba(0, 0, 0,.200);
     text-align: left;
-    max-width: 80vh;
-    margin:auto;
+    max-width: 90%;
+    margin: auto;
+    color: white;
 }
 
 /*Dicover only*/
@@ -389,7 +401,7 @@ div#titles{
     display: flex;
     width: 100%;
     height: 20vw;
-    background-image: url(../img/japan-discover-hero.jpg);
+    background-image: url(../img/Japan-discover-hero-adjusted.jpg);
     background-size: 100% 200%;
     background-repeat: no-repeat;
     object-fit: scale-down;
@@ -399,15 +411,15 @@ div#titles{
 #herojapan2 h1{
     color: white;
     align-self: center;
-    font-size: 475%;
-    transform: translate(370%);
+    font-size: 5vw;
+    margin: auto;
 }
 
 #heronorway2{
     display: flex;
     width: 100%;
     height: 20vw;
-    background-image: url(../img/norway-discover-hero.jpg);
+    background-image: url(../img/norway-discover-hero-adjusted.jpg);
     background-size: 100% 140%;
     background-repeat: no-repeat;
     object-fit: scale-down;
@@ -416,15 +428,15 @@ div#titles{
 #heronorway2 h1{
     color: white;
     align-self: center;
-    font-size: 475%;
-    transform: translate(370%);
+    font-size: 5vw;
+    margin: auto;
 }
 
 #heroindia2{
     display: flex;
     width: 100%;
     height: 20vw;
-    background-image: url(../img/India-Discover-Hero.jpg);
+    background-image: url(../img/India-Discover-Hero-adjusted.jpg);
     background-size: 100% 130%;
     background-repeat: no-repeat;
     object-fit: scale-down;
@@ -433,8 +445,8 @@ div#titles{
 #heroindia2 h1{
     color: white;
     align-self: center;
-    font-size: 475%;
-    transform: translate(370%);
+    font-size: 5vw;
+    margin: auto;
 }
 
 #culturetraditions{
@@ -443,6 +455,7 @@ div#titles{
     text-align: left;
     max-width: 80vh;
     margin:auto;
+    color: white;
 }
 
 /*locations of country*/
@@ -452,17 +465,20 @@ div#titles{
     align-items: center;
     height: 350px;
     padding-left: 0;
+    color:white;
 }
 
 #discover-txt{
     padding-left: 2%;
+    font-size: 0.8vw;
 }
 
 
 .info{
-    background-color: rgba(0, 0, 0, 0.150);
+    background-color: rgba(0, 0, 0, 0.200);
     text-align: left;
     max-width: 100%;
+    
 }
 
 /*Visit only*/
@@ -471,7 +487,7 @@ div#titles{
     display: flex;
     width: 100%;
     height: 20vw;
-    background-image: url(../img/japan-discover-hero.jpg);
+    background-image: url(../img/Japan-visit-hero-adjusted.jpg);
     background-size: 100% 200%;
     background-repeat: no-repeat;
     object-fit: scale-down;
@@ -481,15 +497,15 @@ div#titles{
 #herojapanvisit h1{
     color: white;
     align-self: center;
-    font-size: 475%;
-    transform: translate(370%);
+    font-size: 5vw;
+    margin: auto;
 }
 
 #heronorwayvisit{
     display: flex;
     width: 100%;
     height: 20vw;
-    background-image: url(../img/norway-discover-hero.jpg);
+    background-image: url(../img/norway-discover-hero-adjusted.jpg);
     background-size: 100% 140%;
     background-repeat: no-repeat;
     object-fit: scale-down;
@@ -499,15 +515,15 @@ div#titles{
 #heronorwayvisit h1{
     color: white;
     align-self: center;
-    font-size: 475%;
-    transform: translate(370%);
+    font-size: 5vw;
+    margin: auto;
 }
 
 #heroindiavisit{
     display: flex;
     width: 100%;
     height: 20vw;
-    background-image: url(../img/India-Visit-Hero.jpg);
+    background-image: url(../img/India-Visit-Hero-adjusted.jpg);
     background-size: 100% 130%;
     background-repeat: no-repeat;
     object-fit: scale-down;
@@ -517,8 +533,8 @@ div#titles{
 #heroindiavisit h1{
     color: white;
     align-self: center;
-    font-size: 475%;
-    transform: translate(370%);
+    font-size: 5vw;
+    margin: auto;
 }
 
 /*India Visit page*/
@@ -531,10 +547,7 @@ div#titles{
     flex-direction: row;
     justify-content: space-evenly;
     height: fit-content;
-    text-align: center;
-    margin: 2%;
-    padding: 0;
-    
+    margin: auto;
 }
 
 #visit-pagesindia ul li.Travelindia{
@@ -585,10 +598,46 @@ div#titles{
     background-repeat: no-repeat; 
 }
 
-.experience{
-    font-size: 200%;
-    transform: translateY(7vw);
-    padding: 0;
+.experience1{
+    color: white;
+    font-size: 100%;
+    transform: translateY(335%);
+    background-color:rgba(0, 0, 0, 0.15)
+}
+
+.experience2{
+    color: white;
+    font-size: 100%;
+    transform: translateY(400%);
+    background-color:rgba(0, 0, 0, 0.15)
+}
+
+.experience3{
+    color: white;
+    font-size: 100%;
+    transform: translateY(275%);
+    background-color:rgba(0, 0, 0, 0.15)
+}
+
+.experience4{
+    color: white;
+    font-size: 100%;
+    transform: translateY(388%);
+    background-color:rgba(0, 0, 0, 0.15)
+}
+
+.experience5{
+    color: white;
+    font-size: 100%;
+    transform: translateY(335%);
+    background-color:rgba(0, 0, 0, 0.15)
+}
+
+.experience6{
+    color: white;
+    font-size: 100%;
+    transform: translateY(395%);
+    background-color:rgba(0, 0, 0, 0.15)
 }
 
 #titlevisitpages{
@@ -609,8 +658,9 @@ div#titles{
     justify-content: space-evenly;
     height: fit-content;
     text-align: center;
-    margin: 2%;
-    padding: 0;        
+    margin: auto;
+    padding: 0;    
+  
 }
     
 #visit-pagesjapan ul li.Traveljapan{
@@ -672,8 +722,10 @@ div#titles{
     justify-content: space-evenly;
     height: fit-content;
     text-align: center;
-    margin: 2%;
-    padding: 0;        
+    margin: auto;
+    padding: 0;
+  
+      
 }
 
 #visit-pagesnorway ul li.Travelnorway{
@@ -722,5 +774,4 @@ div#titles{
     height: 25vw;
     width: 25vw;
     background-repeat: no-repeat;
-     
 }

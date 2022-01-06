@@ -791,7 +791,7 @@ div#titles{
     header ul li img{
         width: 9vw;
         height: relative;
-        transform: translateX(40%);
+        transform: translateX(25%);
     }
 
     header ul li{

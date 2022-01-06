@@ -779,8 +779,8 @@ div#titles{
 @media screen and (max-width: 480px){
     body{
         font-size: 80%;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
     }
 
     /*header*/
@@ -796,7 +796,7 @@ div#titles{
 
     header ul li{
         display: inline-block;
-        padding: 1%;
+        padding: 0;
         color: white;
         text-align: center;
         align-self: center;
@@ -820,7 +820,7 @@ div#titles{
         display: block;
     }
 
-    .dropdown::active .dropdown-content{
+    .dropdown:active .dropdown-content{
         display: block flex;
         margin: auto;
     }

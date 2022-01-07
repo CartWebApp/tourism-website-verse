@@ -61,7 +61,7 @@ header ul li img{
 /* footer */
 footer{
     background-color:rgba(0, 0, 0, 0.150);
-    font-size: 1vw;
+    font-size: 1.3vw;
 }
 
 footer ul{
@@ -172,7 +172,7 @@ footer ul li img{
 }
 
 .discover-text{
-    font-size: 2vw;
+    font-size: 1.3vw;
     transform: translateY(7vw);
     padding: 0;
 }
@@ -184,6 +184,7 @@ footer ul li img{
     margin: auto;
     justify-content: space-around;
     justify-items: center;
+    font-size: 1.3vw;
 }
 
 #news{
@@ -452,7 +453,7 @@ div#titles{
     font-size: 1.3vw;
     background-color: rgba(0, 0, 0, 0.150);
     text-align: left;
-    max-width: 80vh;
+    max-width: 70vw;
     margin:auto;
     color: white;
 }
@@ -604,43 +605,43 @@ div#titles{
 
 .experience1{
     color: white;
-    font-size: 100%;
-    transform: translateY(335%);
+    font-size: 1.2vw;
+    transform: translateY(14vw);
     background-color:rgba(0, 0, 0, 0.15)
 }
 
 .experience2{
     color: white;
-    font-size: 100%;
-    transform: translateY(400%);
+    font-size: 1.2vw;
+    transform: translateY(11vw);
     background-color:rgba(0, 0, 0, 0.15)
 }
 
 .experience3{
     color: white;
-    font-size: 100%;
-    transform: translateY(275%);
+    font-size: 1.2vw;
+    transform: translateY(8vw);
     background-color:rgba(0, 0, 0, 0.15)
 }
 
 .experience4{
     color: white;
-    font-size: 100%;
-    transform: translateY(388%);
+    font-size: 1.2vw;
+    transform: translateY(12vw);
     background-color:rgba(0, 0, 0, 0.15)
 }
 
 .experience5{
     color: white;
-    font-size: 100%;
-    transform: translateY(335%);
+    font-size: 1.2vw;
+    transform: translateY(10vw);
     background-color:rgba(0, 0, 0, 0.15)
 }
 
 .experience6{
     color: white;
-    font-size: 100%;
-    transform: translateY(395%);
+    font-size: 1.2vw;
+    transform: translateY(12vw);
     background-color:rgba(0, 0, 0, 0.15)
 }
 

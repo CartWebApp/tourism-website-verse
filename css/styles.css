@@ -402,7 +402,7 @@ div#titles{
     width: 100%;
     height: 20vw;
     background-image: url(../img/Japan-discover-hero.jpg);
-    background-size: 100% 200%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     object-fit: scale-down;
 }
@@ -420,7 +420,7 @@ div#titles{
     width: 100%;
     height: 20vw;
     background-image: url(../img/norway-discover-hero.jpg);
-    background-size: 100% 140%;
+    background-size: 100% 200%;
     background-repeat: no-repeat;
     object-fit: scale-down;
 }
@@ -488,7 +488,7 @@ div#titles{
     width: 100%;
     height: 20vw;
     background-image: url(../img/Japan-visit-hero.jpg);
-    background-size: 100% 200%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     object-fit: scale-down;
 }
@@ -524,7 +524,7 @@ div#titles{
     width: 100%;
     height: 20vw;
     background-image: url(../img/India-Visit-Hero.jpg);
-    background-size: 100% 130%;
+    background-size: 100% 160%;
     background-repeat: no-repeat;
     object-fit: scale-down;
 }

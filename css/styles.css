@@ -209,7 +209,7 @@ footer ul li img{
 /*destinations only*/
 ul#destination{
     padding: 0;
-    height: 20vw;
+    height: 25vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -217,14 +217,14 @@ ul#destination{
 
 .destination-image img{
     width: 100%;
-    height: 20vw;
+    height: 25vw;
 }
 
 #about-txt{
-    font-size: 1.2vw;
-    flex-basis: 50%;
+    font-size: 1.6vw;
+    flex-basis: 40%;
     align-self: center;
-    padding-left: 1%;
+    margin: auto;
 }
 
 span#img-txt p{
@@ -407,7 +407,6 @@ div#titles{
     object-fit: scale-down;
 }
  
-
 #herojapan2 h1{
     color: white;
     align-self: center;
@@ -450,7 +449,7 @@ div#titles{
 }
 
 #culturetraditions{
-    font-size: 100%;
+    font-size: 1.3vw;
     background-color: rgba(0, 0, 0, 0.150);
     text-align: left;
     max-width: 80vh;
@@ -463,14 +462,19 @@ div#titles{
     display: grid;
     grid-template-columns:min-content 1fr;
     align-items: center;
-    height: 350px;
+    height: 25vw;
     padding-left: 0;
     color:white;
 }
 
+#locations img{
+    height: 25vw;
+    width: 35vw;
+}
+
 #discover-txt{
     padding-left: 2%;
-    font-size: 0.8vw;
+    font-size: 1.3vw;
 }
 
 
@@ -877,271 +881,4 @@ div#titles{
         width: 9vw;
         height: relative;
     }
-}
-/*destinations page*/
-    ul#destination{
-    padding: 0;
-    height: 30vw;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.destination-image img{
-    width: 100%;
-    height: 30vw;
-}
-
-#about-txt{
-    font-size: 1.6vw;
-    flex-basis: 50%;
-    align-self: center;
-    padding-left: 1%;
-}
-
-div#titles{
-    text-align: center;
-    color: white;
-    font-size: 2.5vw; 
-}
-
-/*about page*/
-
-.indialocationimg{
-    background-image: url(../img/India-About2-adjusted.jpg);
-    width: 90%;
-    height: 30vw;
-    background-size: 100% 130%;
-    background-repeat: no-repeat;
-    object-fit: scale-down;
-    margin: auto;
-    margin-top: 5%; 
-}
-
-.japanlocationimg{
-    background-image: url(../img/Japan-about-img1.jpg);
-    width: 90%;
-    height: 30vw;
-    background-size: 100% 130%;
-    background-repeat: no-repeat;
-    object-fit: scale-down;
-    margin: auto;
-    margin-top: 5%;
-}
-
-.norwaylocationimg{
-    background-image: url(../img/norway-about-first.jpg);
-    width: 90%;
-    height: 30vw;
-    background-size: 100% 130%;
-    background-repeat: no-repeat;
-    object-fit: scale-down;
-    margin: auto;
-    margin-top: 5%;
-}
-
-.informationlocation{
-    font-size: 1.5vw;
-    background-color: rgba(0, 0, 0, 0.150);
-    text-align: left;
-    max-width: 90%;
-    margin:auto;
-    color: white;
-}
-
-/*cultural*/
-
-.indiaculturalimg{
-    background-image: url(../img/India-About-adjusted.jpg);
-    width: 90%;
-    height: 30vw;
-    background-size: 100% 110%;
-    background-repeat: no-repeat;
-    object-fit: scale-down;
-    margin: auto;
-    margin-top: 5%;
-}
-
-.japanculturalimg{
-    background-image: url(../img/Japan-about-img2-adjusted.jpg);
-    width: 90%;
-    height: 30vw;
-    background-size: 100% 110%;
-    background-repeat: no-repeat;
-    object-fit: scale-down;
-    margin: auto;
-    margin-top: 5%;
-}
-
-.norwayculturalimg{
-    background-image: url(../img/norway-about-second.jpg);
-    width: 90%;
-    height: 30vw;
-    background-size: 100% 110%;
-    background-repeat: no-repeat;
-    object-fit: scale-down;
-    margin: auto;
-    margin-top: 5%;
-}
-
-.informationcultural{
-    font-size: 1.5vw;
-    background-color: rgba(0, 0, 0,.200);
-    text-align: left;
-    max-width: 90%;
-    margin: auto;
-    color: white;
-}
-
-/*discover page*/
-/*locations of country*/
-#locations{
-    display: grid;
-    grid-template-columns:min-content 1fr;
-    align-items: center;
-    height: 350px;
-    padding-left: 0;
-    color:white;
-}
-
-#discover-txt{
-    padding-left: 2%;
-    font-size: 0.1vw;
-}
-
-
-.info{
-    background-color: rgba(0, 0, 0, 0.200);
-    text-align: left;
-    max-width: 100%;
-    
-}
-#culturetraditions{
-    font-size: 2.3vw;
-    background-color: rgba(0, 0, 0, 0.150);
-    text-align: left;
-    max-width: 80vh;
-    margin:auto;
-    color: white;
-    height: 25vh;
-}
-
-
-
-
-
-
-
-/*visit page*/
-
-
-
-/*India Visit page*/
-#visit-pagesindia{
-    padding-top: 2%;
-}
-
-#visit-pagesindia ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: fit-content;
-    margin: auto;
-}
-
-#visit-pagesindia ul li.Travelindia{
-    background-image: url(../img/India-Visit-Travel2.jpg);
-    background-size: 25vw 25vw;
-    height: 25vw;
-    width: 25vw;
-    background-repeat: no-repeat;
-}
-
-#visit-pagesindia ul li.Travelindia2{
-    background-image: url(../img/India-Visit-Travel.jpg);
-    background-size: 25vw 25vw;
-    height: 25vw;
-    width: 25vw;
-    background-repeat: no-repeat;
-}
-
-#visit-pagesindia ul li.Transportationindia{
-    background-image: url(../img/India-Visit-Transportation.jpg);
-    background-size: 25vw 25vw;
-    height: 25vw;
-    width: 25vw;
-    background-repeat: no-repeat;
-}
-
-#visit-pagesindia ul li.Transportationindia2{
-    background-image: url(../img/India-Visit-Transportation2.jpg);
-    background-size: 25vw 25vw;
-    height: 25vw;
-    width: 25vw;
-    background-repeat: no-repeat;
-}
-
-#visit-pagesindia ul li.Lodgingindia{
-    background-image: url(../img/India-Visit-Lodging.jpg);
-    background-size: 25vw 25vw;
-    height: 25vw;
-    width: 25vw;
-    background-repeat: no-repeat;
-}
-
-#visit-pagesindia ul li.Lodgingindia2{
-    background-image: url(../img/India-Visit-Lodging2.jpg);
-    background-size: 25vw 25vw;
-    height: 25vw;
-    width: 25vw;
-    background-repeat: no-repeat; 
-}
-
-.experience1{
-    color: white;
-    font-size: 100%;
-    transform: translateY(335%);
-    background-color:rgba(0, 0, 0, 0.15)
-}
-
-.experience2{
-    color: white;
-    font-size: 100%;
-    transform: translateY(400%);
-    background-color:rgba(0, 0, 0, 0.15)
-}
-
-.experience3{
-    color: white;
-    font-size: 100%;
-    transform: translateY(275%);
-    background-color:rgba(0, 0, 0, 0.15)
-}
-
-.experience4{
-    color: white;
-    font-size: 100%;
-    transform: translateY(388%);
-    background-color:rgba(0, 0, 0, 0.15)
-}
-
-.experience5{
-    color: white;
-    font-size: 100%;
-    transform: translateY(335%);
-    background-color:rgba(0, 0, 0, 0.15)
-}
-
-.experience6{
-    color: white;
-    font-size: 100%;
-    transform: translateY(395%);
-    background-color:rgba(0, 0, 0, 0.15)
-}
-
-#titlevisitpages{
-    border-style: solid;
-    border-radius: 3px;
-    margin-top: 2%;
-    text-align: center;
 }

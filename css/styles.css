@@ -788,8 +788,6 @@ div#titles{
     }
 
     header{
-        display: flex;
-        flex-direction: row;
         height: 15vw;
         font-size: 3vw;
     }

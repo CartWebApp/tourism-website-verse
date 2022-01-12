@@ -179,6 +179,7 @@ footer ul li img{
 
 /*news and faq*/
 #n-f{
+    color: white;
     padding-top: 2%;
     display: flex;
     margin: auto;
@@ -209,6 +210,7 @@ footer ul li img{
 
 /*destinations only*/
 ul#destination{
+    color: white;
     padding: 0;
     height: 25vw;
     display: flex;
@@ -665,7 +667,6 @@ div#titles{
     text-align: center;
     margin: auto;
     padding: 0;    
-  
 }
     
 #visit-pagesjapan ul li.Traveljapan{
@@ -729,8 +730,6 @@ div#titles{
     text-align: center;
     margin: auto;
     padding: 0;
-  
-      
 }
 
 #visit-pagesnorway ul li.Travelnorway{
@@ -789,6 +788,9 @@ div#titles{
     }
 
     header{
+        display: flex;
+        flex-direction: row;
+        height: 15vw;
         font-size: 3vw;
     }
 

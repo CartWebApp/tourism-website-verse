@@ -3,6 +3,8 @@ html{
     background-image:repeating-linear-gradient(180deg, #FFBEA8, #728FBB, #56A4B0, #DBFCFF, #DBFCFF, #FFFB87);
     background-repeat: no-repeat;
     background-attachment:scroll;
+    min-height: 480px;
+    height: fit-content;
 }
 
 body{ 
@@ -143,7 +145,6 @@ footer ul li img{
     justify-content: space-around;
     height: fit-content;
     text-align: center;
-    margin: auto;
     padding: 0;
 }
 
@@ -172,9 +173,9 @@ footer ul li img{
 }
 
 .discover-text{
-    font-size: 1.3vw;
-    transform: translateY(7vw);
+    font-size: 2.5vw;
     padding: 0;
+    margin-top: 25%;
 }
 
 /*news and faq*/
@@ -185,7 +186,7 @@ footer ul li img{
     margin: auto;
     justify-content: space-around;
     justify-items: center;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
 }
 
 #news{
@@ -201,11 +202,11 @@ footer ul li img{
 }
 
 #news ol li{
-    transform: translate(-4.5%);
+    transform: translate(-1vw);
 }
 
 #faq ol li{
-    transform: translate(-4.5%);
+    transform: translate(-1vw);
 }
 
 /*destinations only*/
@@ -782,9 +783,9 @@ div#titles{
 
 @media screen and (max-width: 480px){
     body{
-        font-size: 80%;
         margin-left: 3%;
         margin-right: 3%;
+        font-size: 3vw;
     }
 
     header{
@@ -800,7 +801,7 @@ div#titles{
 
     header ul li{
         display: inline-block;
-        padding: 0;
+        padding: 2%;
         color: white;
         text-align: center;
         align-self: center;
@@ -810,8 +811,6 @@ div#titles{
     /*Dropdown */    
     .dropdown-content{
         padding: 0;
-        display: none;
-        z-index: 1;
         font-size: 2vw;
         margin: 0;
     }
@@ -825,7 +824,7 @@ div#titles{
     }
 
     .dropdown:active .dropdown-content{
-        display: block flex;
+        display: flex;
         margin: auto;
     }
 
@@ -841,5 +840,88 @@ div#titles{
     footer ul li img{
         width: 9vw;
         height: relative;
+    }
+
+    /*Page content*/
+    #hero{
+        display: flex;
+        width: 100%;
+        height: 30vw;
+    }
+
+    #hero h1{
+        font-size: 8vw;
+    }
+
+    /*index only*/
+    #discovery-pages ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: fit-content;
+        text-align: center;
+        padding: 0;
+    }
+    
+    #discovery-pages ul li.things-india{
+        background-image: url(../img/India-Home.jpg);
+        background-size: 35vw 40vw;
+        width: 30vw;
+        height: 40vw;
+        background-repeat: no-repeat;
+    }
+    
+    #discovery-pages ul li.things-japan{
+        background-image: url(../img/Things-in-Japan-img.jpg);
+        background-size: 35vw 40vw;
+        width: 30vw;
+        height: 40vw;
+        background-repeat: no-repeat;
+    }
+    
+    #discovery-pages ul li.things-norway{
+        background-image: url(../img/norway-things-to-do.jpg);
+        background-size: 35vw 40vw;
+        width: 30vw;
+        height: 40vw;
+        background-repeat: no-repeat;
+    }
+    
+    .discover-text{
+        font-size: 2.5vw;
+        padding: 0;
+        margin-top: 40%;
+    }
+
+    /*news and faq*/
+    #n-f{
+        color: white;
+        padding-top: 2%;
+        display: flex;
+        margin: auto;
+        width: 120%;
+        font-size: 3vw;
+    }
+
+    #news{
+        transform: translateX(-5vw);
+        background-color: rgba(0, 0, 0, 0.150);
+        text-align: left;
+        /* max-width: 40%; */
+    }
+
+    #faq{
+        transform: translateX(-14vw);
+        background-color: rgba(0, 0, 0, 0.150);
+        text-align: left;
+        /* max-width: 40%; */
+    }
+
+    #news ol li{
+        transform: translate(-3vw);
+    }
+
+    #faq ol li{
+        transform: translate(-3vw);
     }
 }

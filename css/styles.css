@@ -1,1 +1,1034 @@
 /* Don't forget that media queries are required for this project */
+html{
+    background-image:repeating-linear-gradient(180deg, #FFBEA8, #728FBB, #56A4B0, #DBFCFF, #DBFCFF, #FFFB87);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    min-height: 480px;
+    height: fit-content;
+}
+
+body{ 
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(255, 255, 255, 0.192);
+}
+
+li{
+    text-decoration: none;
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+/*Header*/
+header{
+    background-color: rgba(0, 0, 0, 0.150);
+    font-size: 1.5vw;
+}
+
+header ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: inherit;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 1%;
+    color: white;
+    text-align: center;
+    align-self: center;
+    margin-right: 3%;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header ul li img{
+    width: 5.5vw;
+    height: relative;
+    transform: translateX(75%);
+}
+
+/* footer */
+footer{
+    background-color:rgba(0, 0, 0, 0.150);
+    font-size: 1.3vw;
+}
+
+footer ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer ul li{
+    color: white;
+    padding: 1%;
+    text-align: center;
+    align-self: center;
+}
+
+footer ul li img{
+    width: 5.5vw;
+    height: relative;
+}
+
+/*Dropdown */    
+.dropdown-content{
+    padding: 0;
+    display: none;
+    z-index: 1;
+    font-size: 1vw;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 5% 0.4vw;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+    display: block flex;
+    margin: auto;
+}
+
+.dropdown-content a:hover{
+    background-color: rgba(0, 0, 0, 0.150);
+}
+
+
+/*Page content*/
+#hero{
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../img/home-hero.jpg);
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    padding-top: 2%;
+}
+ 
+
+#hero h1{
+    color: white;
+    align-self: center;
+    font-size: 5vw;
+    margin: auto;
+}
+
+/*index only*/
+
+/*Discovery pages*/
+#discovery-pages{
+    padding-top: 2%;
+}
+
+#discovery-pages ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: fit-content;
+    text-align: center;
+    padding: 0;
+}
+
+#discovery-pages ul li.things-india{
+    background-image: url(../img/India-Home.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 20vw;
+    background-repeat: no-repeat;
+}
+
+#discovery-pages ul li.things-japan{
+    background-image: url(../img/Things-in-Japan-img.jpg);
+    background-size: 20vw 25vw;
+    height: 25vw;
+    width: 20vw;
+    background-repeat: no-repeat;
+}
+
+#discovery-pages ul li.things-norway{
+    background-image: url(../img/norway-things-to-do.jpg);
+    background-size: 20vw 25vw;
+    height: 25vw;
+    width: 20vw;
+    background-repeat: no-repeat;
+}
+
+.discover-text{
+    font-size: 2.5vw;
+    padding: 0;
+    margin-top: 25%;
+}
+
+/*news and faq*/
+#n-f{
+    color: white;
+    padding-top: 2%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    justify-items: center;
+    font-size: 1.5vw;
+}
+
+#news{
+    background-color: rgba(0, 0, 0, 0.150);
+    text-align: left;
+    max-width: 40%;
+}
+
+#faq{
+    background-color: rgba(0, 0, 0, 0.150);
+    text-align: left;
+    max-width: 40%;
+}
+
+#news ol li{
+    transform: translate(-1vw);
+}
+
+#faq ol li{
+    transform: translate(-1vw);
+}
+
+/*destinations only*/
+ul#destination{
+    color: white;
+    padding: 0;
+    height: 25vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.destination-image img{
+    width: 100%;
+    height: 25vw;
+}
+
+#about-txt{
+    font-size: 1.6vw;
+    flex-basis: 40%;
+    align-self: center;
+    margin: auto;
+}
+
+span#img-txt p{
+    color: white;
+    position: relative;
+    z-index: 1;
+    transform: translateY(-300%);
+    margin-left: 35%;
+    margin-right: 0;
+}
+
+.place{
+    transform: translateY(300);
+    transform: translateZ(1)
+}
+
+.text{
+    background-color: rgba(0, 0, 0, 0.150);
+    text-align: left;
+    max-width: 100%;
+}
+
+div#titles{
+    text-align: center;
+    color: white;
+    font-size: 2vw; 
+}
+
+/*About only*/
+#herojapan{
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../img/Japan-about-hero.jpg);
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+}
+ 
+
+#herojapan h1{
+    color: white;
+    align-self: center;
+    font-size: 5vw;
+    margin: auto;
+}
+
+#heronorway{
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../img/norway-about-hero.jpg);
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+}
+
+#heronorway h1{
+    color: white;
+    align-self: center;
+    font-size: 5vw;
+    margin: auto;
+}
+
+#heroindia{
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../img/India-About-Hero.jpg);
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+}
+ 
+
+#heroindia h1{
+    color: white;
+    align-self: center;
+    font-size: 5vw;
+    margin: auto;
+}
+
+/*about page content*/
+/*location*/
+.indialocationimg{
+    background-image: url(../img/India-About2.jpg);
+    width: 90%;
+    height: 20vw;
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    margin: auto;
+    margin-top: 5%; 
+}
+
+.japanlocationimg{
+    background-image: url(../img/Japan-about-img1.jpg);
+    width: 90%;
+    height: 20vw;
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.norwaylocationimg{
+    background-image: url(../img/norway-about-first.jpg);
+    width: 90%;
+    height: 20vw;
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.informationlocation{
+    font-size: 1.2vw;
+    background-color: rgba(0, 0, 0, 0.150);
+    text-align: left;
+    max-width: 90%;
+    margin:auto;
+    color: white;
+}
+
+/*cultural*/
+
+.indiaculturalimg{
+    background-image: url(../img/India-About.jpg);
+    width: 90%;
+    height: 20vw;
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.japanculturalimg{
+    background-image: url(../img/Japan-about-img2.jpg);
+    width: 90%;
+    height: 20vw;
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.norwayculturalimg{
+    background-image: url(../img/norway-about-second.jpg);
+    width: 90%;
+    height: 20vw;
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.informationcultural{
+    font-size: 1.2vw;
+    background-color: rgba(0, 0, 0,.200);
+    text-align: left;
+    max-width: 90%;
+    margin: auto;
+    color: white;
+}
+
+/*Dicover only*/
+/*hero img*/
+#herojapan2{
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../img/Japan-discover-hero.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+}
+ 
+#herojapan2 h1{
+    color: white;
+    align-self: center;
+    font-size: 5vw;
+    margin: auto;
+}
+
+#heronorway2{
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../img/norway-discover-hero.jpg);
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+}
+
+#heronorway2 h1{
+    color: white;
+    align-self: center;
+    font-size: 5vw;
+    margin: auto;
+}
+
+#heroindia2{
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../img/India-Discover-Hero.jpg);
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+}
+
+#heroindia2 h1{
+    color: white;
+    align-self: center;
+    font-size: 5vw;
+    margin: auto;
+}
+
+#culturetraditions{
+    font-size: 1.3vw;
+    background-color: rgba(0, 0, 0, 0.150);
+    text-align: left;
+    max-width: 70vw;
+    margin:auto;
+    color: white;
+}
+
+/*locations of country*/
+#locations{
+    display: grid;
+    grid-template-columns:min-content 1fr;
+    align-items: center;
+    height: 25vw;
+    padding-left: 0;
+    color:white;
+}
+
+#locations img{
+    height: 25vw;
+    width: 35vw;
+}
+
+#discover-txt{
+    padding-left: 2%;
+    font-size: 1.3vw;
+}
+
+
+.info{
+    background-color: rgba(0, 0, 0, 0.200);
+    text-align: left;
+    max-width: 100%;
+    
+}
+
+/*Visit only*/
+/* Visit hero img*/
+#herojapanvisit{
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../img/Japan-visit-hero.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+}
+ 
+
+#herojapanvisit h1{
+    color: white;
+    align-self: center;
+    font-size: 5vw;
+    margin: auto;
+}
+
+#heronorwayvisit{
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../img/norway-discover-hero.jpg);
+    background-size: 100% 140%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+}
+ 
+
+#heronorwayvisit h1{
+    color: white;
+    align-self: center;
+    font-size: 5vw;
+    margin: auto;
+}
+
+#heroindiavisit{
+    display: flex;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../img/India-Visit-Hero.jpg);
+    background-size: 100% 160%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+}
+ 
+
+#heroindiavisit h1{
+    color: white;
+    align-self: center;
+    font-size: 5vw;
+    margin: auto;
+}
+
+/*India Visit page*/
+#visit-pagesindia{
+    padding-top: 2%;
+}
+
+#visit-pagesindia ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: fit-content;
+    margin: auto;
+}
+
+#visit-pagesindia ul li.Travelindia{
+    background-image: url(../img/India-Visit-Travel2.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+
+#visit-pagesindia ul li.Travelindia2{
+    background-image: url(../img/India-Visit-Travel.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+
+#visit-pagesindia ul li.Transportationindia{
+    background-image: url(../img/India-Visit-Transportation.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+
+#visit-pagesindia ul li.Transportationindia2{
+    background-image: url(../img/India-Visit-Transportation2.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+
+#visit-pagesindia ul li.Lodgingindia{
+    background-image: url(../img/India-Visit-Lodging.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+
+#visit-pagesindia ul li.Lodgingindia2{
+    background-image: url(../img/India-Visit-Lodging2.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat; 
+}
+
+.experience1{
+    color: white;
+    font-size: 1.2vw;
+    transform: translateY(14vw);
+    background-color:rgba(0, 0, 0, 0.15)
+}
+
+.experience2{
+    color: white;
+    font-size: 1.2vw;
+    transform: translateY(11vw);
+    background-color:rgba(0, 0, 0, 0.15)
+}
+
+.experience3{
+    color: white;
+    font-size: 1.2vw;
+    transform: translateY(8vw);
+    background-color:rgba(0, 0, 0, 0.15)
+}
+
+.experience4{
+    color: white;
+    font-size: 1.2vw;
+    transform: translateY(12vw);
+    background-color:rgba(0, 0, 0, 0.15)
+}
+
+.experience5{
+    color: white;
+    font-size: 1.2vw;
+    transform: translateY(10vw);
+    background-color:rgba(0, 0, 0, 0.15)
+}
+
+.experience6{
+    color: white;
+    font-size: 1.2vw;
+    transform: translateY(12vw);
+    background-color:rgba(0, 0, 0, 0.15)
+}
+
+#titlevisitpages{
+    border-style: solid;
+    border-radius: 3px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+/*Japan visit page*/
+#visit-pagesjapan{
+    padding-top: 2%;
+}
+   
+#visit-pagesjapan ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+    padding: 0;    
+}
+    
+#visit-pagesjapan ul li.Traveljapan{
+    background-image: url(../img/Japan-visit-img1.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+    
+#visit-pagesjapan ul li.Traveljapan2{
+    background-image: url(../img/Japan-visit-img2.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+    
+#visit-pagesjapan ul li.Transportationjapan{
+    background-image: url(../img/Japan-visit-img3.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+
+#visit-pagesjapan ul li.Transportationjapan2{
+    background-image: url(../img/Japan-visit-img4.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+    
+#visit-pagesjapan ul li.Lodgingjapan{
+    background-image: url(../img/Japan-visit-img5.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+    
+#visit-pagesjapan ul li.Lodgingjapan2{
+    background-image: url(../img/Japan-visit-img6.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+
+/* Norway Visit page*/ 
+#visit-pagesnorway{
+    padding-top: 2%;
+}
+    
+#visit-pagesnorway ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+#visit-pagesnorway ul li.Travelnorway{
+    background-image: url(../img/norway-visit-to-first.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+    
+#visit-pagesnorway ul li.Travelnorway2{
+    background-image: url(../img/norway-visit-to-second.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+    
+#visit-pagesnorway ul li.Transportationnorway{
+    background-image: url(../img/norway-visit-transport-first.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+
+#visit-pagesnorway ul li.Transportationnorway2{
+    background-image: url(../img/norway-visit-transport-second.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+    
+#visit-pagesnorway ul li.Lodgingnorway{
+    background-image: url(../img/norway-visit-lodging-first.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+    
+#visit-pagesnorway ul li.Lodgingnorway2{
+    background-image: url(../img/norway-visit-lodging-second.jpg);
+    background-size: 25vw 25vw;
+    height: 25vw;
+    width: 25vw;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 480px){
+    body{
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 3vw;
+    }
+
+    header{
+        height: 15vw;
+        font-size: 3vw;
+    }
+
+    header ul li img{
+        width: 9vw;
+        height: relative;
+        transform: translateX(25%);
+    }
+
+    header ul li{
+        display: inline-block;
+        padding: 2%;
+        color: white;
+        text-align: center;
+        align-self: center;
+        margin-right: 0;
+    }
+    
+    /*Dropdown */    
+    .dropdown-content{
+        padding: 0;
+        font-size: 2vw;
+        margin: 0;
+    }
+
+    .dropdown-content a{
+        margin: 0;
+        color: black;
+        padding: 5% 0.4vw;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown:active .dropdown-content{
+        display: flex;
+        margin: auto;
+    }
+
+    .dropdown-content a:target{
+        background-color: rgba(0, 0, 0, 0.150);
+    }
+
+    /*Footer*/
+    footer{
+        font-size: 3vw;
+    }
+
+    footer ul li img{
+        width: 9vw;
+        height: relative;
+    }
+
+    /*Page content*/
+    #hero{
+        display: flex;
+        width: 100%;
+        height: 30vw;
+    }
+
+    #hero h1{
+        font-size: 8vw;
+    }
+
+    /*index only*/
+    #discovery-pages ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: fit-content;
+        text-align: center;
+        padding: 0;
+    }
+    
+    #discovery-pages ul li.things-india{
+        background-image: url(../img/India-Home.jpg);
+        background-size: 35vw 40vw;
+        width: 30vw;
+        height: 40vw;
+        background-repeat: no-repeat;
+    }
+    
+    #discovery-pages ul li.things-japan{
+        background-image: url(../img/Things-in-Japan-img.jpg);
+        background-size: 35vw 40vw;
+        width: 30vw;
+        height: 40vw;
+        background-repeat: no-repeat;
+    }
+    
+    #discovery-pages ul li.things-norway{
+        background-image: url(../img/norway-things-to-do.jpg);
+        background-size: 35vw 40vw;
+        width: 30vw;
+        height: 40vw;
+        background-repeat: no-repeat;
+    }
+    
+    .discover-text{
+        font-size: 2.5vw;
+        padding: 0;
+        margin-top: 40%;
+    }
+
+    /*news and faq*/
+    #n-f{
+        color: white;
+        padding-top: 2%;
+        display: flex;
+        margin: auto;
+        width: 120%;
+        font-size: 3vw;
+    }
+
+    #news{
+        transform: translateX(-5vw);
+        background-color: rgba(0, 0, 0, 0.150);
+        text-align: left;
+        /* max-width: 40%; */
+    }
+
+    #faq{
+        transform: translateX(-14vw);
+        background-color: rgba(0, 0, 0, 0.150);
+        text-align: left;
+        /* max-width: 40%; */
+    }
+
+    #news ol li{
+        transform: translate(-3vw);
+    }
+
+    #faq ol li{
+        transform: translate(-3vw);
+    }
+
+    /*About only*/
+    #herojapan{
+        height: 30vw;
+    }
+ 
+    #herojapan h1{
+        font-size: 8vw;
+    }
+
+    #heronorway{
+        height: 30vw;
+    }
+
+    #heronorway h1{
+        font-size: 8vw;
+    }
+
+    #heroindia{
+        height: 30vw;
+    }
+ 
+
+    #heroindia h1{
+        font-size: 8vw;
+    }
+
+    /*about page content*/
+    /*location*/
+    .indialocationimg{
+        height: 40vw;
+    }
+
+    .japanlocationimg{
+        height: 40vw;
+    }
+
+    .norwaylocationimg{
+        height: 20vw;
+    }
+
+    .informationlocation{
+    font-size: 2.5vw;
+    }
+
+    /*cultural*/
+    .indiaculturalimg{
+    height: 40vw;
+    }
+
+    .japanculturalimg{
+    height: 40vw;
+    }
+
+    .norwayculturalimg{
+        height: 40vw;
+    }
+
+    .informationcultural{
+        font-size: 2.5vw;
+    }
+
+/*Dicover only*/
+/*hero img*/
+    #herojapan2{
+        height: 30vw;
+    }
+ 
+    #herojapan2 h1{
+        font-size: 8vw;
+    }
+
+    #heronorway2{
+        height: 30vw;
+    }
+
+    #heronorway2 h1{
+        font-size: 8vw;
+    }
+
+    #heroindia2{
+        height: 30vw;
+    }
+
+    #heroindia2 h1{
+        font-size: 8vw;
+    }
+
+    #culturetraditions{
+        font-size: 2.5vw;
+        max-width: 80vw;
+    }
+
+    /*locations of country*/
+    #locations{
+        height: 40vw;
+    }
+
+    #locations img{
+        height: 40vw;
+        width: 34vw;
+    }
+
+    #discover-txt{
+        padding-left: 2%;
+        font-size: 2vw;
+    }
+}

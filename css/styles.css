@@ -924,4 +924,111 @@ div#titles{
     #faq ol li{
         transform: translate(-3vw);
     }
+
+    /*About only*/
+    #herojapan{
+        height: 30vw;
+    }
+ 
+    #herojapan h1{
+        font-size: 8vw;
+    }
+
+    #heronorway{
+        height: 30vw;
+    }
+
+    #heronorway h1{
+        font-size: 8vw;
+    }
+
+    #heroindia{
+        height: 30vw;
+    }
+ 
+
+    #heroindia h1{
+        font-size: 8vw;
+    }
+
+    /*about page content*/
+    /*location*/
+    .indialocationimg{
+        height: 40vw;
+    }
+
+    .japanlocationimg{
+        height: 40vw;
+    }
+
+    .norwaylocationimg{
+        height: 20vw;
+    }
+
+    .informationlocation{
+    font-size: 2.5vw;
+    }
+
+    /*cultural*/
+    .indiaculturalimg{
+    height: 40vw;
+    }
+
+    .japanculturalimg{
+    height: 40vw;
+    }
+
+    .norwayculturalimg{
+        height: 40vw;
+    }
+
+    .informationcultural{
+        font-size: 2.5vw;
+    }
+
+/*Dicover only*/
+/*hero img*/
+    #herojapan2{
+        height: 30vw;
+    }
+ 
+    #herojapan2 h1{
+        font-size: 8vw;
+    }
+
+    #heronorway2{
+        height: 30vw;
+    }
+
+    #heronorway2 h1{
+        font-size: 8vw;
+    }
+
+    #heroindia2{
+        height: 30vw;
+    }
+
+    #heroindia2 h1{
+        font-size: 8vw;
+    }
+
+    #culturetraditions{
+        font-size: 2.5vw;
+        max-width: 80vw;
+    }
+
+    /*locations of country*/
+    #locations{
+        height: 40vw;
+    }
+
+    #locations img{
+        height: 40vw;
+        width: 34vw;
+    }
+
+    #discover-txt{
+        padding-left: 2%;
+        font-size: 2vw;
+    }
 }
